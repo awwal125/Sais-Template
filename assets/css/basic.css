@@ -1,0 +1,427 @@
+
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+
+    ========================================================  */
+
+
+/*==============================================
+    BASIC  STYLES
+    =============================================*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height:25px;
+}
+
+#wrapper {
+    width: 100%;
+    background: #202020;
+}
+
+#page-wrapper {
+    padding: 15px 15px;
+    min-height: 600px;
+    background: #F3F3F3;
+}
+
+#page-inner {
+    width: 100%;
+    margin: 10px 20px 10px 0px;
+    background-color: #fff!important;
+    padding: 10px;
+    min-height: 1200px;
+}
+
+.page-head-line {
+    font-size: 30px;
+    color: #000;
+    font-weight: 800;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #014421;
+    margin-bottom: 10px;
+}
+
+.page-subhead-line {
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-style:italic;
+    margin-bottom:30px;
+    border-bottom:1px dashed #014421;
+}
+
+.change_pass_box {
+      position: absolute;
+      top: 35%;
+      height: 200px;
+      width: 400px;
+      background-color: #7b1113;
+      padding-left: 10px;
+      padding-top: 10px;
+      font-size: 14px;
+}
+/*==============================================
+    MENU STYLES
+    =============================================*/
+.navbar-cls-top .navbar-brand {
+    position: fixed;
+    top: 0;
+    color: #fff;
+    background: #7b1113;
+    width: 260px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+
+.header-right {
+    position: absolute;
+    left: 92.5%;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.header-search {
+    position: absolute;
+    left: 73.5%;
+    padding-top: 50px;
+    color: #000;
+}
+
+.site-name {
+    position: absolute;
+    padding-top: 1%;
+    color: #fff;
+}
+/*
+.navbar-cls-top .navbar-brand:hover {
+    background: #7b1113;
+    color: #fff;
+}
+*/
+.logo-img-div {
+    height: 80px;
+}
+
+.title-div {
+    font-size: 20px;
+    font-stretch: expanded;
+}
+
+.user-img-div {
+    min-height: 140px;
+    padding: 20px;
+    background-color: #be1a1d;
+}
+
+    .user-info-div {
+        background-color: #014421;
+        min-height: 100px;
+        max-height: 250px;
+        text-align: left;
+        font-size: 17px;
+        font-weight: bold;
+        position: relative;
+        padding: 10px;
+        color: #fff;
+        /*font-weight: 800;*/
+        padding-left: 10px;
+    }
+
+    .inner-text {
+        font-weight: normal;
+    }
+
+.active-menu {
+    background-color: #015d2d!important;
+}
+.active-menu-top {
+    background-color: #000!important;
+}
+
+.arrow {
+    float: right;
+}
+
+.fa.arrow:before {
+    content: "\f104";
+}
+
+.active > a > .fa.arrow:before {
+    content: "\f107";
+}
+
+
+.nav-second-level li,
+.nav-third-level li {
+    font-size: 14px;
+    border-bottom: none !important;
+}
+
+    .nav-second-level li a {
+        padding-left: 30px;
+    }
+
+    .nav-third-level li a {
+        background: #323232;
+        font-size: 12px;
+        padding-left: 55px;
+    }
+
+.sidebar-collapse, .sidebar-collapse .nav {
+    background: none;
+}
+
+    .sidebar-collapse .nav {
+        padding: 0;
+    }
+
+        .sidebar-collapse .nav > li > a {
+            color: #fff;
+            background: #202020;
+            text-shadow: none;
+            padding: 15px 40px;
+            border-bottom: 1px solid #2F2E31;
+        }
+
+    .sidebar-collapse > .nav > li > a {
+        padding: 15px 10px;
+    }
+
+    .sidebar-collapse .nav > li > a:hover,
+    .sidebar-collapse .nav > li > a:focus {
+        background: #0A0A0A;
+        outline: 0;
+    }
+
+
+
+.nav-second-level > li:last-child > a:after,
+.nav-third-level > li:last-child > a:after {
+    height: 50%;
+}
+
+.nav-third-level > li > a:after,
+.nav-third-level > li > a:before {
+    left: 40px;
+}
+
+.navbar-side {
+    border: none;
+    background-color: #202020;
+}
+
+.navbar-cls-top {
+    height: 90px;
+    background: #7b1113;
+    border-bottom: none;
+}
+
+.navbar-default {
+    border: 0px solid black;
+}
+
+.navbar-header {
+    position: absolute;
+    background: #7b1113;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #7b1113;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #FFF;
+    }
+
+.nav > li > a > i {
+    margin-right: 10px;
+}
+
+/*==============================================
+    FOOTER  STYLES
+    =============================================*/
+#footer-sec {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color:#fff;
+    font-size:12px;
+}
+
+    #footer-sec a {
+        color:#fff;
+    }
+    #footer-sec a:hover,a:focus {
+        color:#fff;
+        text-decoration:none;
+    }
+/*==============================================
+    MEDIA QUERIES
+    =============================================*/
+
+@media (min-width:768px) {
+    #page-wrapper {
+        margin: 0 0 0 260px;
+        padding: 15px 30px;
+        min-height: 1200px;
+    }
+
+
+    .navbar-side {
+        z-index: 1;
+        position: absolute;
+        width: 260px;
+    }
+
+    .navbar {
+        border-radius: 0px;
+    }
+}
+
+/*==============================================
+   ADDITIONAL
+    =============================================*/
+#page-inner-details {
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 30%;
+    /*margin: 50px 20px 10px 0px;
+    background-color: white;*/
+    background-color: #7b1113;
+    padding: 10px;
+    min-height: 10px;
+    border-color: #d43f3a;
+    color: white;
+    text-align: center;
+}
+
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid #7b1113;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #ffd6cc;
+    color: black;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+   color: black;
+}
+
+table#t01 td:nth-child(8) {
+   text-align: center;
+}
+
+table#t01 td:nth-child(9) {
+   text-align: center;
+}
+
+table#t01 th {
+    background-color: #7b1113;
+    color: white;
+}
+
+table#t02 tr:nth-child(even) {
+    background-color: #ffd6cc;
+    color: black;
+}
+table#t02 tr:nth-child(odd) {
+   background-color:#fff;
+   color: black;
+}
+
+table#t02 td:nth-child(1) {
+   background-color:#7b1113;
+   color: white;
+}
+
+table#t02 td:nth-child(1) {
+   background-color:#7b1113;
+   color: white;
+}
+table#t02 th {
+    background-color: #7b1113;
+    color: white;
+}
+
+table#t03 tr:nth-child(even) {
+    background-color: #ffd6cc;
+    color: black;
+}
+table#t03 tr:nth-child(odd) {
+   background-color:#fff;
+   color: black;
+}
+
+table#t03 td:nth-child(8) {
+   text-align: center;
+}
+
+table#t03 td:nth-child(9) {
+   text-align: center;
+}
+
+table#t03 th {
+    background-color: #7b1113;
+    color: white;
+}
+
+
+#status{
+    padding-left: 20px;
+    margin: 10px;
+    float: right;
+}
+#btn{
+    margin-top: 10px;
+    float: right;
+}
+
+#hide{
+    display: block;
+}
+
+#important{
+    background-color: #7b1113;
+    color: white;
+    text-align: center;
+}
+
+#info{
+    background-color: #ffd6cc;
+    color: black;
+    text-align: center;
+}
+
+#head{
+    background-color: #7b1113;
+    color: white;
+}
+
+#line{
+    border-color: white;
+    border-bottom:1px dashed #014421;
+}
